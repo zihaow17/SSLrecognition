@@ -1,0 +1,12 @@
+
+To keep our packages standardised and prevent conflicts, we will be using python 3.9 and the packages in the requirements.txt file. 
+If you come across a version conflict or used a new package, please update the requirements.txt file accordingly :)
+
+Creating virtual environment:
+(in cmd)
+conda create -n <name> python=3.9
+conda activate <name>
+
+conda deactivate  (close the environment)
+
+pip install requirements.txt (quickly install all used packages, may result in conflict, in which case manually install)
