@@ -1,0 +1,176 @@
+{
+  "version": "2.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "right elbow",
+      "points": [
+        [
+          401.4942528735632,
+          590.7471264367816
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "right palm",
+      "points": [
+        [
+          565.8620689655171,
+          442.47126436781605
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "right shoulder",
+      "points": [
+        [
+          505.5172413793103,
+          383.85057471264366
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "neck",
+      "points": [
+        [
+          660.1149425287356,
+          363.1609195402298
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "mouth",
+      "points": [
+        [
+          673.9080459770114,
+          239.02298850574712
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "nose",
+      "points": [
+        [
+          673.3333333333333,
+          204.54022988505747
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "right eye",
+      "points": [
+        [
+          637.1264367816091,
+          177.5287356321839
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "left eye",
+      "points": [
+        [
+          695.7471264367815,
+          172.9310344827586
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "left shoulder",
+      "points": [
+        [
+          802.6436781609194,
+          367.7586206896551
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "left elbow",
+      "points": [
+        [
+          868.1609195402298,
+          628.1034482758621
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "right wrist",
+      "points": [
+        [
+          512.4137931034481,
+          484.4252873563218
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "hello_000015.jpg",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280,
+  "text": ""
+}
