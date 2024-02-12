@@ -9,4 +9,4 @@ conda activate <name>
 
 conda deactivate  (close the environment)
 
-pip install requirements.txt (quickly install all used packages, may result in conflict, in which case manually install)
+pip install -r requirements.txt (quickly install all used packages, may result in conflict, in which case manually install)
