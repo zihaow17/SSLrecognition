@@ -1,4 +1,5 @@
 import cv2
+import os
 import numpy as np
 import mediapipe as mp
 
@@ -77,6 +78,38 @@ def extract_keypoints(results):
         right = np.zeros(21*3)
     
     return np.concatenate([pose, left, right])
+
+def extract_coordinates(filepath, savepath):
+    """
+    Takes in the file path of the videos and save path for labels.
+    Go through each frame of the video, apply detection model and save key points. 
+    Show the masked image for visual confirmation.
+    Returns a frame number to count total frames processed.
+    """
+    cap = cv2.VideoCapture(filepath)
+    frame_num = 1
+    with mp.solutions.holistic.Holistic(min_detection_confidence = 0.5, min_tracking_confidence = 0.5) as holistic:
+        while cap.isOpened():
+            ret, frame = cap.read()
+
+            if ret == True:
+            
+                image, results = mediapipe_detection(frame, holistic)
+                draw_styled_landmarks(image, results)
+                keypoints = extract_keypoints(results)
+
+                save_dest = os.path.join(savepath, str(frame_num))
+
+                np.save(save_dest, keypoints)
+
+                frame_num += 1
+
+            else:
+                break
+    
+    cap.release()
+
+    return frame_num
 
 def prob_viz(res, actions, input_frame, colors):
     output_frame = input_frame.copy()

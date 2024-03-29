@@ -30,9 +30,12 @@ MANIFEST
 *.MOV
 *.mp4
 
+*.zip
+
 # Saved files/logs
 *.npy 
 *events.out*
+*.parquet
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
